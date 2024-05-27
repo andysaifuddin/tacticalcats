@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.active, .navbar-brand, .nav-link:hover, .card-title .text-center { 
+    font-weight: bold;
+}
+
+.nav-link, .navbar-brand {
+    color: black !important;
+    font-size: 30px;
+}
+
+main {
+    margin: 30px 0;
+}
+
+.title-logo {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title-text {
+    font-size: 30px;
+    text-align: left;
+    text-indent: 75px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.title-text-job {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.layout {
+    background-color: #0087d4;
+    border: 30px solid #0306c9;
+    padding: 30px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.presentation iframe {
+    width: 100%;
+}
+
+.background-footer {
+    background-color: #0306c9;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.product.layout.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframe-container {
+    width: 485px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 402px;
+}
+
+
+/* Khusus Ukuran Handphone */
+@media (max-width: 992px) {
+    .navbar {
+        background-color: white !important;
+    }
+}
+
+/* Khusus Ukuran Website */
+@media (min-width: 992px) {
+    .product.layout.text-center {
+        flex-direction: column;
+    }
+}
